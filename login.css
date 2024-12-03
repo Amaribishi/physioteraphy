@@ -1,0 +1,133 @@
+/* Përdorimi i imazhit për background */
+body {
+    background: url('img/bg/loginbg.jpg') no-repeat center center fixed; 
+    background-size: cover; /* Imazhi do të mbushë ekranin plotësisht */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Ngjyra e tekstit është më e errët për kontrast të mirë */
+}
+
+/* Stili për kutinë e formularit */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparencë më e ulët për të dhënë më shumë dritë */
+    padding: 40px 30px;
+    border-radius: 15px; /* Kornizë më e butë */
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Hije më e theksuar për një efekt 3D */
+    border: 1px solid #e3e3e3; /* Kufiri i lehtë */
+}
+
+/* Titulli */
+header {
+    text-align: center;
+    color: #00796b; /* Ngjyrë e freskët jeshile */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Formatimi i inputeve */
+.input-container {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    padding-left: 50px; /* Lini për ikona */
+    border: 2px solid #00796b;
+    border-radius: 8px; /* Rrethim më të butë */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #004d40; /* Ngjyrë e theksuar kur inputi është aktiv */
+    outline: none;
+}
+
+/* Ikona */
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #00796b;
+}
+
+/* Stilizimi për butonat */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40; /* Ngjyrë më e errët gjatë kalimit të mausit */
+}
+
+
+
+/* Pjesa për checkbox dhe linket */
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember a {
+    color: #00796b;
+    font-weight: bold;
+}
+
+.remember input {
+    margin-right: 10px;
+}
+
+/* Linket */
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Efekti i "password visibility" */
+.password {
+    padding-right: 40px; /* Hapësirë për ikonën */
+}
+
+.toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #00796b;
+}
+
+

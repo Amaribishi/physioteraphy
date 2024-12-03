@@ -1,0 +1,119 @@
+/* Përdorimi i imazhit për background */
+body {
+    background: url('img/bg/loginbg.jpg') no-repeat center center fixed; 
+    background-size: cover; /* Imazhi do të mbushë ekranin plotësisht */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Ngjyra e tekstit është më e errët për kontrast të mirë */
+  }
+  
+  /* Kuti e formularit */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparencë më e ulët për të dhënë më shumë dritë */
+    padding: 40px 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Hije më e theksuar për një efekt 3D */
+    border: 1px solid #080404;
+  }
+  
+  header {
+    text-align: center;
+    color: #00796b;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border-top: 2px solid #00796b;
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  /* Inputet */
+  .input-container {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 15px;
+    padding-left: 50px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #004d40;
+    outline: none;
+  }
+  
+  /* Ikona */
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #00796b;
+  }
+  
+  /* Stilizimi për butonat */
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Pjesa për checkbox dhe linket */
+  .links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .links a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Efekti i "password visibility" */
+  .password {
+    padding-right: 40px;
+  }
+  
+  .toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #00796b;
+  }
+  
